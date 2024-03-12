@@ -10,7 +10,8 @@ This is the backend of the Commodity Digital Quality Control (QC) application, b
 4. Set up MySQL database:
    - Create a database named `qc`.
    - Configure database connection in `db.js`.
-5. Start the server: `node index.js`.
+5. create `images` folder for storing images
+6. Start the server: `node index.js`.
 
 
 
@@ -25,6 +26,7 @@ This is the backend of the Commodity Digital Quality Control (QC) application, b
 
 - `routes/`: Contains route handlers.
 - `controllers/`: Contains controller functions.
+- `images/`: conatin images
 - `models/`: Contains Sequelize models.
 - `db.js`: Database connection configuration.
 - `index.js`: Main server file.
